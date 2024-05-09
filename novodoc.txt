@@ -1,0 +1,26 @@
+COMANDOS
+1 - git init => inicia uma versão.
+2 - git status=> exibe os arquivos que não estão comitados e que estão salvos no controle
+da versão.
+3 - git add "nome do arquivo e extensão" => adiciona o arquivo pra fila de atualização de
+versão.
+4 - git remote add origin link da URL do perfil git hub => abre o acesso remoto para poder
+enviar ou puxar arquivos da nuvem git.
+5 - git commit -m "nome referência a nova atualização" => observação sobre o que foi feito
+na nova adição.
+6 - git push => enviar arquivo ao diretório aberto anteriormente.
+git add . => adiciona todos os arquivos que precisam ser salvos na nova versão.
+git clone URL do projeto, acesse CODE, e copie o link HTTPS.
+git reflog => histórico de atualização das versões.
+git reset --hard ID SELECIONADO NO REFLOG=> retorna a versão escolhida, de acordo
+com o ID.
+git pull => traz atualizações do servidor para o local.
+Criando Branches
+git branch => verifica as que estão criadas e qual está em uso.
+git branch estado => criação da branch com nome de estado
+git checkout estado => alterando para a branch a ser trabalhada, que no caso tem o nome
+de estado.
+git checkout -b testados estado => criação da branch testados, com base na branch estado.
+touch .gitignore => cria pasta que ignora arquivos e outros diretórios.(dentro do arquivo
+gitignore digite o caminho do documento a ser ignorado).
+git merge => Une os arquivos no mesmo diretório
